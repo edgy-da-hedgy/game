@@ -577,7 +577,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 3433db115ad21f046a08971dddf9c465, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::balls
-  force: 6
+  force: 4
 --- !u!1 &329374363
 GameObject:
   m_ObjectHideFlags: 0
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 12ac18e09fde50e4cb1ac80a870ab68f, type: 3}
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::NewMonoBehaviourScript
-  LevelToLoad: game2
+  LevelToLoad: 
 --- !u!114 &329374366
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3330,8 +3330,8 @@ SceneRoots:
   - {fileID: 1316918018}
   - {fileID: 1496079315}
   - {fileID: 1569565838}
-  - {fileID: 254100555}
   - {fileID: 89126574}
+  - {fileID: 254100555}
   - {fileID: 377363106}
   - {fileID: 1469849748}
   - {fileID: 1609060821}
