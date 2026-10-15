@@ -16,7 +16,7 @@ public class CameraFollow : MonoBehaviour
         // how far back it needs to be to look down at that angle
         float distance = height / Mathf.Tan(angle * Mathf.Deg2Rad);
 
-        transform.position = target.position + new Vector3(0f, height, -distance);
-        transform.rotation = Quaternion.Euler(angle, 0f, 0f);
+        transform.position = target.position + new Vector3(distance, height, 0f);
+        transform.rotation = Quaternion.Euler(angle, -90f, 0f);
     }
 }

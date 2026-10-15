@@ -19,10 +19,10 @@ public class balls : MonoBehaviour
         float x = 0f;
         float z = 0f;
         Keyboard kb = Keyboard.current;
-        if (kb.aKey.isPressed) x = -1f;
-        if (kb.dKey.isPressed) x = 1f;
-        if (kb.sKey.isPressed) z = -1f;
-        if (kb.wKey.isPressed) z = 1f;
+        if (kb.aKey.isPressed) z = -1f;
+        if (kb.dKey.isPressed) z = 1f;
+        if (kb.sKey.isPressed) x = 1f;
+        if (kb.wKey.isPressed) x = -1f;
 
         Vector3 direction = new Vector3(x, 0f, z).normalized;
 
